@@ -1,0 +1,22 @@
+/*Task 1*/
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+/*Task 2*/
+
+img:hover {
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/*Task 3*/
+
