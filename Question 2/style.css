@@ -1,0 +1,60 @@
+/*Task 1*/
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="reset"],
+button[type="submit"]
+{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="reset"]:hover,
+button[type="submit"]:hover {
+    background-color: aqua;
+    transition-duration: .5s;
+}
+
+/*Task 2*/
+
+li{
+    display: inline;
+}
+
+li::before {
+    content: "~";
+    border-radius: 1ch;
+    padding-inline: 1ch;
+    margin-inline-end: 1ch;
+  }
+
+li > a:hover {
+    color: aqua;
+    transition-duration: .5s;
+}
+
+/*Task 3*/
+
+table tr:hover{
+    border: 30px;
+    border-color: lightcoral;
+}
+
+table tr:nth-child(odd){
+    background-color: lightslategray;
+}
